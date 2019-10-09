@@ -1,0 +1,45 @@
+.giochi{
+display: inline-block;
+
+
+
+}
+
+.game1{
+  background-image: url(http://psngiochi.space/wp-content/uploads/2018/10/shadow-of-the-tomb-raider-psngiochispace-giochi-digitali-ps4-digital-games-ps4-cifrovye-igry-ps4.jpg);
+  background-color: lightgrey;
+  width: 100;
+  height: 100;
+  margin: 10px;
+  padding:500px;
+
+
+}
+
+
+.game2{
+  background-image: url(https://media.gamestop.com/i/gamestop/10116405/UNCHARTED-4-A-Thiefs-End);
+  background-color: lightgrey;
+  width: 50;
+  height: 50;
+  margin: 10px;
+  padding:500px;
+
+
+}
+
+
+
+.game3{
+background-image: url(https://static.raru.co.za/cover/2015/08/23/2985834-l.jpg?v=1484639017);
+background-color: lightgrey;
+width: 100;
+height: 100;
+margin: 10px;
+padding:500px;
+
+
+
+
+
+}
