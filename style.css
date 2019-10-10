@@ -1,39 +1,58 @@
-.giochi{
-display: inline-block;
-
-}
-
-.game1{
-  background-image: url(http://psngiochi.space/wp-content/uploads/2018/10/shadow-of-the-tomb-raider-psngiochispace-giochi-digitali-ps4-digital-games-ps4-cifrovye-igry-ps4.jpg);
-  background-color: lightgrey;
-  width: 100;
-  height: 100;
-  margin: 10px;
-  padding:500px;
-
-}
-
-
-.game2{
-  background-image: url(https://media.gamestop.com/i/gamestop/10116405/UNCHARTED-4-A-Thiefs-End);
-  background-color: lightgrey;
-  width: 50;
-  height: 50;
-  margin: 10px;
-  padding:500px;
-
-
+* {
+  margin:0;
+  padding:0;
+  box-sizing: border-box;
 }
 
 
 
-.game3{
-background-image: url(https://static.raru.co.za/cover/2015/08/23/2985834-l.jpg?v=1484639017);
-background-color: lightgrey;
-width: 100;
-height: 100;
-margin: 10px;
-padding:500px;
+.game {
+  background-color: grey;
+  border: 1px solid black;
+  display: inline-block;
+  position: relative;
+  text-align: center;
 
+}
+
+.game .discount{
+  background-color: green;
+  border: 1px black solid;
+  position: absolute;
+  top:0;
+  right:0;
+
+}
+
+.game .red {
+  background-color: red;
+}
+
+main {
+  width: 1000px;
+  margin: auto;
+  text-align: center;
+
+}
+
+.heart {
+  font-size: 30px;
+  position: absolute;
+  botton: 0;
+  left: 0;
+  color: red;
+  width: 100%;
+  text-align: center;
+  visibility: hidden;
+}
+
+.game:hover .heart{
+  visibility: visible;
+
+}
+
+.game img {
+  max-width: 200px;
+  vertical-align: middle;
 
 }
