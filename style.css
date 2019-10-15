@@ -15,6 +15,12 @@
 
 }
 
+.game img{
+    object-fit: cover;
+    object-position: center;
+
+}
+
 .game .discount{
   background-color: green;
   border: 1px black solid;
